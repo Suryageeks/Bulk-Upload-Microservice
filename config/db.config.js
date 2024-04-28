@@ -4,10 +4,10 @@ const connectDB = async () => {
   try {
     // oracledb.initOracleClient({ libDir: "/opt/oracle/instantclient_19_8" });  // for thick mode
     const connection = await oracledb.getConnection({
-      user: "sys",
-      password: "admin",
-      connectString: "localhost:1521/XE",
-      privilege: oracledb.SYSDBA,
+      user: "xxxx",
+      password: "xxxxx",
+      connectString: "xxxxxxxx:xxxx/xx",
+      privilege: xxxxxx.xxxx,
       // mode: oracledb.MODE_THICK
     });
     console.log("connected");
